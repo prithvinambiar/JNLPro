@@ -1,6 +1,19 @@
-*.class
+#IDEA Stuff          #
+######################
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+#Maven Stuff          #
+######################
+*/target/*
+/target/*
+
+# OS generated files #
+######################
+.DS_Store*
+
+# Other files #
+###############
+*.log
